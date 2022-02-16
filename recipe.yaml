@@ -30,5 +30,12 @@ tasks:
     src: ./tmp/cp_recipe/logo.png
     dest: ./logo.png
     
+  # Download our custom resources
+  - action: download_github
+    src: https://github.com/mystyleigh/cp_resources
+    ref: master
+    subpath: resources
+    dest: ./resources
+    
   - action: remove_path
     path: ./tmp
