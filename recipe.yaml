@@ -34,8 +34,8 @@ tasks:
   - action: download_github
     src: https://github.com/mystyleigh/cp_resources
     ref: master
-    subpath: resources
-    dest: ./resources
+    subpath: andromeda
+    dest: ./resources/andromeda
     
   - action: remove_path
     path: ./tmp
