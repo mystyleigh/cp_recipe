@@ -33,8 +33,6 @@ tasks:
   # Download our custom resources
   - action: download_github
     src: https://github.com/mystyleigh/cp_resources
-    ref: master
-    subpath: andromeda
     dest: ./resources/andromeda
     
   - action: remove_path
