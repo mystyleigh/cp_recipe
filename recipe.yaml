@@ -31,9 +31,14 @@ tasks:
     dest: ./logo.png
     
   # Download our custom resources
+  #- action: download_github
+  #  src: https://github.com/mystyleigh/cp_resources
+  #  dest: ./resources/andromeda
+    
   - action: download_github
-    src: https://github.com/mystyleigh/cp_resources
-    dest: ./resources/andromeda
+    src: https://github.com/Blumlaut/EasyAdmin
+    ref: ad774ebd8de60f8423ed520b6f51ae73bd3797b0
+    dest: ./resources/EasyAdmin
     
   - action: remove_path
     path: ./tmp
