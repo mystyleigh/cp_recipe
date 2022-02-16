@@ -4,7 +4,7 @@ $onesync: on
 name: Cyberpunk
 version: v0.1
 author: mysty
-description: A recipe to create a cyberpunk themed server for FiveM.
+description: A cyberpunk themed server for FiveM.
 
 tasks:
   # Download default CFX resources first
