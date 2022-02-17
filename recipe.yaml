@@ -31,9 +31,9 @@ tasks:
     dest: ./logo.png
     
   # Download our custom resources
-  #- action: download_github
-  #  src: https://github.com/mystyleigh/cp_resources
-  #  dest: ./resources/andromeda
+  - action: download_github
+    src: https://github.com/mystyleigh/cp_resources
+    dest: ./resources/[cyberpunk]
     
   - action: download_github
     src: https://github.com/Blumlaut/EasyAdmin
